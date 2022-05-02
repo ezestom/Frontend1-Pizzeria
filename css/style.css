@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* border: solid blue 1px */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/*header*/
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+header{
+    display: flex;
+    background-color: #222222;
+    justify-content: space-between;
+    box-shadow: -2px 2px 7px 1px rgba(0,0,0,0.26);
+    flex-wrap: wrap;    
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 1%;
+    align-items: center;
+    gap: 15px;
+}
+header ul li a{
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+header ul li a:hover{
+    color: #39B24A;
+}
+header img{
+    padding: 2% 0 2% 2%;    
+}
+
+/*main*/
+
+
+
+
+main div img{
+    box-shadow: -2px 2px 7px 1px rgba(0,0,0,0.26);
+    max-width: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5%;
+
+}
+
+/*footer*/
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -2px 2px 7px 1px rgba(0,0,0,0.26);
+    flex-wrap: wrap;
+    background-color: #222222;
+    align-items: flex-end;
+}
+
+footer img{
+    padding: 2% 2% 2% 0; 
+}
+footer ul li{
+    list-style-type: none;
+    padding-top: 5%;
+}
+footer ul{
+    padding-bottom: 1%;
+}
+
+footer ul li a{
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+footer ul li a:hover{
+    color: #39B24A;
+}
+footer p{
+    color: white;
+    font-family: 'roboto';
+}
+
+@media screen and (max-width: 900px) {
+    footer p{
+        display: none;
+    }
+    }
